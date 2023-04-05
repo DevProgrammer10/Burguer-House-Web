@@ -61,6 +61,7 @@
 .hero__main {
     display: flex;
     padding-inline: 4rem;
+    width: auto;
 }
 
 .hero__main>div {
@@ -85,6 +86,7 @@
     padding-bottom: 0.3rem;
     margin-bottom: 1rem;
     margin-left: -3rem;
+    box-shadow: 15px 15px 30px black;
     box-shadow: 15px 15px 30px black;
 }
 
@@ -155,6 +157,7 @@
 
 .price small {
     font-size: 1.4rem;
+
 }
 
 .only {
@@ -576,7 +579,84 @@ footer p {
 .foot_cent {
     text-align: initial;
 }
-/***No logre centrar el parrafo del
-    Footer a pesar de haber intercambiado
-    Class y Id. No me funciono con ninguno.
-    Deje en Id***/
+
+
+@media screen and (max-width: 480px) {
+    .hero__header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+}
+
+.header__right {
+    align-items: flex-start;
+}
+
+.hero_img img {
+    max-width: 100%;
+}
+
+.header__img {
+    padding-top: 0;
+
+}
+
+.hero__main {
+    flex-direction: column;
+    padding-inline: 2rem;
+    padding-top: 2.5rem;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.enjoy {
+    padding-inline: 3rem;
+}
+
+.titles{
+    padding-inline: 0;
+}
+.cards{
+    flex-direction: column;
+}
+
+.events{
+    padding: 3rem;
+}
+
+.inner{
+    flex-direction: column;
+}
+.dots{
+    bottom: -1;
+}
+
+.reservation{
+    padding-inline: 2rem;
+
+}
+.reservation__form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    padding: 2rem;
+}
+
+.footer__top{
+    flex-direction: column;
+}
+
+
+/***LAS IMAGENES DEL HTML 1
+   NO LAS PUEDO ENCAJAR BIEN.
+   SALUDOS TUTOR/A!!!!
+   ***/
+   
